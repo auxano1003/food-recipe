@@ -109,7 +109,54 @@ table{
 	padding: 4px;
 	font-size: 16px;
 }
+.header480{
+	display: none;
+}
+.section480{
+	display: none;
+}
+
 
 /* tr,td{
 	border-bottom: 1px solid #000;
 } */
+@media screen and (max-width:450px){
+
+header{
+	display: none;
+}
+.header480{
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 150px;
+}
+.header480 img{
+	width: 100%;
+	height: 150px;
+	border: 0;
+	border-radius: 0;
+}
+section, main, footer{
+	display: none;
+}
+.section480{
+		width: 100%;
+		height: 200px;
+		display: block;
+
+}
+.heading480{
+	font-size: 25px;
+	font-family: sans-serif;
+	color: #000;
+	width: 60%;
+	margin-left: 30px;
+	padding-top: 5px;
+}
+.frontier480{
+	width: 70%;
+	margin-left: 30px;
+	padding-top: 5px;
+}
+}
