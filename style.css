@@ -205,7 +205,7 @@ ul li{
 .main480{
 	display: block;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	margin-top: 30px;
 }
 /* ol{
@@ -216,5 +216,19 @@ ol li{
 	list-style-position: outside;
 	padding: 5px;
 }
+.footer480{
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+.caption480{
+	padding-left: 30px;
+}
+table{
+	width: 40%;
+	height: 100px;
+	margin: 20px 0 0 70px;
+}
+
 
 }
