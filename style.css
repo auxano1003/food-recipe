@@ -137,12 +137,18 @@ header{
 	border: 0;
 	border-radius: 0;
 }
-section, main, footer{
+section{
+	display: none;
+}
+main{
+	display: none;
+}
+footer{
 	display: none;
 }
 .section480{
 		width: 100%;
-		height: 200px;
+		height: 600px;
 		display: block;
 
 }
@@ -177,6 +183,36 @@ section, main, footer{
 	height: 100px;
 }
 ul li{
+	list-style-position: outside;
+	padding: 5px;
+}
+.topic{
+	color: brown;
+	font-weight: bold;
+	font-size: 22px;
+	padding-top: 10px;
+
+}
+.listbelow{
+	margin-left: 40px;
+	width: 60%;
+
+}
+.listbelow li{
+	list-style-position: outside;
+	padding: 5px;
+}
+.main480{
+	display: block;
+	width: 100%;
+	height: 400px;
+	margin-top: 30px;
+}
+/* ol{
+	width: 80%;
+
+} */
+ol li{
 	list-style-position: outside;
 	padding: 5px;
 }
